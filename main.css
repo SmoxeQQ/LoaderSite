@@ -14,7 +14,9 @@
 }
 
 .discord-button {
-  left: 5%; /* Отступ слева */
+  position: absolute; /* Делаем позиционирование абсолютным */
+  top: 1%; /* Отступ сверху */
+  left: 1%; /* Отступ слева */
   display: flex;
   align-items: center;
   justify-content: center;
