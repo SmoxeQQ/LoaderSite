@@ -22,13 +22,14 @@
   padding: 12px 24px; /* Размеры кнопки */
   border: none; /* Без рамки */
   border-radius: 8px; /* Закругленные углы */
-  text-decoration: none; /* Убираем подчеркивание у ссылки */
   font-size: 18px; /* Размер шрифта */
+  cursor: pointer; /* Указатель при наведении */
+  outline: none; /* Убираем контур */
   transition: box-shadow 0.3s; /* Плавный переход для тени */
-  margin-top: 20px; /* Отступ сверху */
+  margin-top: 20px; /* Отступ сверху, если необходимо */
 }
 
-.discord-button .discord-icon {
+.discord-icon {
   width: 24px; /* Ширина иконки */
   height: 24px; /* Высота иконки */
   margin-right: 8px; /* Отступ справа от иконки */
@@ -47,7 +48,6 @@
     box-shadow: 0 6px 40px rgba(0, 0, 255, 0.7); /* Тень при 50% */
   }
 }
-
 
 #fullPage {
   position: absolute;
