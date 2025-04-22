@@ -14,6 +14,7 @@
 }
 
 .discord-button {
+  left: 5%; /* Отступ слева */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,8 +33,8 @@
 }
 
 .discord-icon {
-  width: 24px; /* Ширина иконки */
-  height: 24px; /* Высота иконки */
+  width: 30px; /* Ширина иконки */
+  height: 30px; /* Высота иконки */
   margin-right: 8px; /* Отступ справа от иконки */
 }
 
