@@ -14,9 +14,7 @@
 }
 
 .discord-button {
-  position: absolute;
-  top: 0px;
-  right: 10px;
+  float:right;
   display: flex;
   align-items: center;
   justify-content: center;
