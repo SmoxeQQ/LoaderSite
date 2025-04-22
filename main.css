@@ -27,6 +27,8 @@
   outline: none; /* Убираем контур */
   transition: box-shadow 0.3s; /* Плавный переход для тени */
   margin-top: 20px; /* Отступ сверху, если необходимо */
+  box-shadow: 0 4px 30px rgba(0, 0, 255, 0.5); /* Тень в обычном состоянии */
+  animation: shadowAnimation 1s infinite; /* Анимация тени */
 }
 
 .discord-icon {
@@ -35,9 +37,8 @@
   margin-right: 8px; /* Отступ справа от иконки */
 }
 
-.discord-button:hover {
-  box-shadow: 0 4px 30px rgba(0, 0, 255, 0.5); /* Тень в обычном состоянии */
-  animation: shadowAnimation 1s infinite; /* Анимация тени */
+.discord-button:click {
+  box-shadow: 0 10px 30px rgba(0, 255, 255, 0.5); /* Тень в обычном состоянии */
 }
 
 @keyframes shadowAnimation {
